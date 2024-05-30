@@ -9,7 +9,7 @@ export const authOption = {
         })
     ],
 
-    // secret: process.env.NEXTAUTH_SECRET
+    secret: process.env.NEXTAUTH_SECRET
 
     
 }
