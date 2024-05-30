@@ -6,7 +6,7 @@ import Link from "next/link"
 
 const page = async () => {
     const user = await authUserSession ()
-    const collection = await prisma.collection.findMany({ where: {user_email: user?.email}})
+    const collection = await prisma.collection.findMany({ where: {user_email: user.email}})
   return (
     <section className="mt-4 px-4 w-full">
         <Header title={"My Colecction"}/>
