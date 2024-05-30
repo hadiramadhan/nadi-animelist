@@ -82,7 +82,7 @@ const Page = async ({ params: { id }}) =>{
            />
            <p className="text-justify text-xl">{anime.data.synopsis}</p>
         </div>
-        <div className="p-4">
+        {/* <div className="p-4">
             <h3 className="text-color-primary text-2xl mb-4">Komentar</h3>
             <CommentBox anime_mal_id={id}/>
 
@@ -93,7 +93,7 @@ const Page = async ({ params: { id }}) =>{
 
         <div>
             <VideoPlayer youtubeId={anime.data.trailer.youtube_id}/>
-        </div>
+        </div> */}
         </>
     )
 }
